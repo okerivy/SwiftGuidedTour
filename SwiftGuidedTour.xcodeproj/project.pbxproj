@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B78817A212E5DC3007704D2 /* TestSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B788179212E5DC3007704D2 /* TestSwift.swift */; };
+		7B78817C212E6214007704D2 /* PublicSwiftFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B78817B212E6214007704D2 /* PublicSwiftFunc.swift */; };
 		7BD6E8C6212D6E81006FD832 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD6E8C5212D6E81006FD832 /* main.swift */; };
+		7BD6E8CD212D7646006FD832 /* L01_TheBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD6E8CC212D7646006FD832 /* L01_TheBasics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7B788179212E5DC3007704D2 /* TestSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSwift.swift; sourceTree = "<group>"; };
+		7B78817B212E6214007704D2 /* PublicSwiftFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicSwiftFunc.swift; sourceTree = "<group>"; };
 		7BD6E8C2212D6E81006FD832 /* SwiftGuidedTour */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftGuidedTour; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BD6E8C5212D6E81006FD832 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		7BD6E8CC212D7646006FD832 /* L01_TheBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L01_TheBasics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				7BD6E8C5212D6E81006FD832 /* main.swift */,
+				7B78817B212E6214007704D2 /* PublicSwiftFunc.swift */,
+				7B788179212E5DC3007704D2 /* TestSwift.swift */,
+				7BD6E8CC212D7646006FD832 /* L01_TheBasics.swift */,
 			);
 			path = SwiftGuidedTour;
 			sourceTree = "<group>";
@@ -119,6 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B78817C212E6214007704D2 /* PublicSwiftFunc.swift in Sources */,
+				7B78817A212E5DC3007704D2 /* TestSwift.swift in Sources */,
+				7BD6E8CD212D7646006FD832 /* L01_TheBasics.swift in Sources */,
 				7BD6E8C6212D6E81006FD832 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,6 +255,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -252,6 +265,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
